@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(12, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.testimonial{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    
+
+}
+.testimonial-text {
+    background: #ffffff;
+    color: black;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    box-shadow: 0 15px 20px rgba(255, 255, 255, 0.2);
+    border-radius: 3%;
+}
+p{
+    font-size: 1.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.user-text{
+    width: 80%;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.user-text span{
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 70px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.testimonial-pic{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-pic {
+    width: 80px;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+ 
+}
+.user-text.active-text{
+    display: block;
+    
+}
+.user-pic.active-pic {
+    width: 100px;
+    border: 3px solid #ffffff;
+   
+}
