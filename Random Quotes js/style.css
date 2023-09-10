@@ -7,31 +7,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=EB+Garamond&family=Poppins:wght@100;400&display=swap");
 
 .main {
-  background: #c4dfdf;
+  background: url(img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
   height: 100vh;
   width: 100%;
+  text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .block {
   height: 40vh;
   width: 650px;
-  border: 1px solid red;
+  margin: 50px;
   display: flex;
-  justify-content: end;
-  align-items: end;
-  background-color: aliceblue;
-  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b6bac1;
+  border-radius: 25px;
 }
 .block h1 {
-  margin-top: 10%;
+  margin-top: 7%;
+  margin-bottom: 7%;
 }
 
 button {
   height: 40px;
   width: 100px;
-  margin: 10px;
+  margin: 20px;
   border-radius: 20px;
   background-color: rgb(208, 208, 208);
   font-weight: 600;
