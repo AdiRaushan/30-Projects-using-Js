@@ -2,9 +2,8 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=EB+Garamond&family=Poppins:wght@100;400&display=swap");
 
 .main {
   background: url(img/bg.jpg);
@@ -22,7 +21,7 @@
 
 .block {
   height: 40vh;
-  width: 650px;
+  width: 55%;
   margin: 50px;
   display: flex;
   flex-direction: column;
@@ -32,8 +31,21 @@
   border-radius: 25px;
 }
 .block h1 {
-  margin-top: 7%;
-  margin-bottom: 7%;
+  padding: 0 2px 0 2px;
+  margin: 7% 2px 3% 2px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.block h1 i {
+  margin: 0px 10px 15px 10px;
+}
+.block h2 {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 600;
+}
+.block h2 img {
+  margin: 0px 0pc -5px 9px;
 }
 
 button {
