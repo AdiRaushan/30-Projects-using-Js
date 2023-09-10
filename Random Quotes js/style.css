@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=EB+Garamond&family=Poppins:wght@100;400&display=swap");
+
+.main {
+  background: #c4dfdf;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block {
+  height: 40vh;
+  width: 650px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.block h1 {
+  margin-top: 10%;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: rgb(208, 208, 208);
+  font-weight: 600;
+  font-size: 13px;
+}
+button:hover {
+  background-color: rgb(45, 57, 66);
+  color: azure;
+}
